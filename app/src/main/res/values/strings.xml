@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string-array name="lits_lever">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="lits_style">
+        <item>ABC</item>
+        <item>TEXT</item>
+    </string-array>
+
+    <string name="close_app">Close app</string>
+    <string name="dialog_message">AlertDialog</string>
+    <string name="dialog_title">GBAndroidBlogs</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+    <string name="okay">Okay</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="exit">Do you want to leave this app?</string>
+    <string name="delete">Are you sure you want to delete this item?</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:id="@+id/svSearch_tb"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/btnSort_tb"
+        android:title="Sort"
+        android:icon="@drawable/ic_baseline_sort_24"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/btnSortByID"
+                app:showAsAction="never"
+                android:title="Sort by ID" />
+            <item
+                android:id="@+id/btnSortByContent"
+                app:showAsAction="never"
+                android:title="Sort by Content" />
+            <item
+                android:id="@+id/btnSortByLever"
+                app:showAsAction="never"
+                android:title="Sort by Lever" />
+
+        </menu>
+    </item>
+    <item
+        android:title="Add new question"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:id="@+id/btnAdd_tb"/>
+    <item
+        android:title="Exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:id="@+id/btnExit_tb"/>
+</menu>
